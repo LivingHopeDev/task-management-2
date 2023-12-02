@@ -5,7 +5,7 @@ var taskSchema = new mongoose.Schema(
     title: String,
     description: String,
     dueDate: String,
-    status: {
+    completed: {
       type: Boolean,
       default: false,
     },
